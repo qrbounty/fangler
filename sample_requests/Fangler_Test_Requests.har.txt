@@ -1,0 +1,97 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": "RESTED REST Client",
+    "Comment": "An exported collection from RESTED",
+    "entries": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://127.0.0.1:5000/api/refang",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "data",
+                "value": "[\"hxxps:$$www[dot]twitter[dot]com\", \"sfxp:$$www[dot]google[dot]com\"]"
+              }
+            ],
+            "text": "data=[\"hxxps:$$www[dot]twitter[dot]com\", \"sfxp:$$www[dot]google[dot]com\"]"
+          }
+        }
+      },
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://127.0.0.1:5000/api/refang",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "data",
+                "value": "hxxps:$$www[dot]twitter[dot]com"
+              }
+            ],
+            "text": "data=hxxps:$$www[dot]twitter[dot]com"
+          }
+        }
+      },
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://127.0.0.1:5000/api/defang",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "data",
+                "value": "[\"https://www.twitter.com\"]"
+              }
+            ],
+            "text": "data=[\"https://www.twitter.com\"]"
+          }
+        }
+      },
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://127.0.0.1:5000/api/defang",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "data",
+                "value": "[\"https://www.twitter.com\", \"sftp://www.google.com\"]"
+              }
+            ],
+            "text": "data=[\"https://www.twitter.com\", \"sftp://www.google.com\"]"
+          }
+        }
+      }
+    ]
+  }
+}

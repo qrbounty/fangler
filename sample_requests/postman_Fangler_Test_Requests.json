@@ -1,0 +1,74 @@
+{
+  "id": "cf978faa-0d56-489f-87bd-a79a3bfb943e",
+  "name": "Fangler Test Requests",
+  "requests": [
+    {
+      "id": "6281e3b4-ea10-4a25-94fa-73018e079ff6",
+      "collectionId": "cf978faa-0d56-489f-87bd-a79a3bfb943e",
+      "method": "POST",
+      "url": "http://127.0.0.1:5000/api/refang",
+      "headers": "Content-Type: application/json\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "data",
+          "value": "[\"hxxps:$$www[dot]twitter[dot]com\", \"sfxp:$$www[dot]google[dot]com\"]",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "c0c7c4f8-813e-444c-ade4-6cac832a4ddf",
+      "collectionId": "cf978faa-0d56-489f-87bd-a79a3bfb943e",
+      "method": "POST",
+      "url": "http://127.0.0.1:5000/api/refang",
+      "headers": "Content-Type: application/json\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "data",
+          "value": "hxxps:$$www[dot]twitter[dot]com",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "85ea6b79-a4c8-4db8-ad6e-ebe44ac933b4",
+      "collectionId": "cf978faa-0d56-489f-87bd-a79a3bfb943e",
+      "method": "POST",
+      "url": "http://127.0.0.1:5000/api/defang",
+      "headers": "Content-Type: application/json\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "data",
+          "value": "[\"https://www.twitter.com\"]",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "231e8e09-8306-469a-b50c-df6c90bc36a9",
+      "collectionId": "cf978faa-0d56-489f-87bd-a79a3bfb943e",
+      "method": "POST",
+      "url": "http://127.0.0.1:5000/api/defang",
+      "headers": "Content-Type: application/json\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "data",
+          "value": "[\"https://www.twitter.com\", \"sftp://www.google.com\"]",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    }
+  ]
+}
