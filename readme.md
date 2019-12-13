@@ -64,12 +64,3 @@ python test_fangler.py -v
 There are some Postman and HAR formatted example requests in the sample_requests folder. These cover the core 
 functionality of the app and should import into Postman and most browser-based request editors.
 [Learn more about HAR here](http://www.softwareishard.com/blog/har-adopters/).
-
-
-## Design Documentation
-
-The project design document can be found [here](https://docs.google.com/document/d/1k_0lx9Aak_pojCCY_KWCQA9KEH5Mgtd1YWyumwVKW1g/edit?usp=sharing)
-
-## Authors
-
-* **Ryan Weaver**
