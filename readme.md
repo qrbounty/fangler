@@ -37,11 +37,11 @@ or
 ### Endpoint curl Examples
 
 ```
-$ curl -d '{"data": "https://www.twitter.com"}' -H "Content-Type: application/json" -X POST http://localhost:5000/api/defang
-{"response": "hxxps:$$www[dot]twitter[dot]com"}
+$ curl -d '{"data": "https://www.example.com"}' -H "Content-Type: application/json" -X POST http://localhost:5000/api/defang
+{"response": "hxxps:$$www[dot]example[dot]com"}
 
-$ curl -d '{"data": "hxxps:$$www[dot]twitter[dot]com"}' -H "Content-Type: application/json" -X POST http://localhost:5000/api/refang
-{"response": "https://www.twitter.com"}
+$ curl -d '{"data": "hxxps:$$www[dot]example[dot]com"}' -H "Content-Type: application/json" -X POST http://localhost:5000/api/refang
+{"response": "https://www.example.com"}
 ```
 
 There's also a stress test file that contains 500 complex HTTP/HTTPS URLs (WARNING: These are phishing urls!!!).
